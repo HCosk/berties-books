@@ -9,7 +9,7 @@ INSERT INTO users (username, first_name, last_name, email, hashed_password)
 VALUES (
     'gold',
     'Gold',
-    'Smith',
+    'Smiths',
     'gold@gold.ac.uk',
-    '$2b$10$9e3ONmlRylZ8hEvIEQJYheLY8MDbpGE9chC9rOaFzi9IPpxE2hR6S'
+    '$2b$10$rECN1nodOn1M3C79JyybIumYMRHTm5LtxEvnfzR/Pf70svZYsI6cG'
 );
