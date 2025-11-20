@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS users (
     first_name VARCHAR(255) NOT NULL,
     last_name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
-    hashed_password VARCHAR(255) NOT NULL
+    hashedPassword VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS audit_log (
